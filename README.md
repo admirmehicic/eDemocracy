@@ -9,6 +9,8 @@ UPUTE - b/h/s
 -Za bazu podataka korištena je MySQL tehnologija na portu 3306
 -Pristupni podaci za bazu podataka su user:root i password:admir
 -Ukoliko svi koraci budu ispravno obavljeni, možemo koristiti web aplikaciju te obavljati CRUD operacije
+
+
 Instructions - eng
 The project task was implemented using SpringMVC, Java, and MySQL technologies.
 IntelliJ IDEA was used as the development environment.
