@@ -1,4 +1,4 @@
-UPUTE - b/h/s
+UPUTE - (b/h/s)
 -Projektni zadatak je realizovan uz pomoć SpringMVC, Java i MySQL tehnologija
 -Korišteno je razvojno okruženje IntelliJ IDEA
 -Projekat se pokreće otvaranjem projekta u navedenom razvojnom okruženju
@@ -11,7 +11,7 @@ UPUTE - b/h/s
 -Ukoliko svi koraci budu ispravno obavljeni, možemo koristiti web aplikaciju te obavljati CRUD operacije
 
 
-Instructions - eng
+Instructions - (eng)
 The project task was implemented using SpringMVC, Java, and MySQL technologies.
 IntelliJ IDEA was used as the development environment.
 The project is launched by opening it in the mentioned development environment.
