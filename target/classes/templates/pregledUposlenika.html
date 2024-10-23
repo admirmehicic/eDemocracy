@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+
+    <style>
+        body{
+            background-color: #202b38;
+        }
+        .naslov {
+            font-family: "Nirmala UI";
+            margin-left: 10%;
+            color: white;
+        }
+        .lista{
+            font-size: 20px;
+            font-family: "Nirmala UI";}
+
+        .obrisi{
+            background-color: crimson;
+            color: white;
+            text-transform: uppercase;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .uredi{
+            background-color: cornflowerblue;
+            color: white;
+            text-transform: uppercase;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        table {
+            font-family: "Nirmala UI";
+            border-collapse: collapse;
+            width: 80%;
+            margin-left: 10%;
+            border-radius: 10px;
+        }
+
+        th{
+            font-family: "Nirmala UI";
+            color:white;
+            font-size: 15px;
+            padding: 15px;
+        }
+
+        td {
+            font-family: "Nirmala UI";
+            color: white;
+            border: 1px solid black;
+            padding: 5px;
+            text-align: left;
+        }
+
+    </style>
+    <title>Pregled korisnika</title>
+</head>
+<body>
+<h1 class="naslov">Lista svih uposlenika</h1>
+
+
+<table border="1">
+    <thead>
+    <tr>
+        <th>JMBG</th>
+        <th>DATUM ROĐENJA</th>
+        <th>IME</th>
+        <th>PREZIME</th>
+        <th>ADRESA </th>
+        <th>BROJ TELEFONA</th>
+        <th>EMAIL</th>
+        <th>LOZINKA</th>
+        <th>KANTON</th>
+        <th>OSNOVICA</th>
+    </tr>
+    </thead>
+    <tbody class="tablica">
+    <tr th:each="index : ${#numbers.sequence(0, #lists.size(nizJMBG)-1)}">
+        <td th:text="${nizJMBG[index]}">JMBG</td>
+        <td th:text="${nizDatum[index]}">datum</td>
+        <td th:text="${nizIme[index]}">Ime</td>
+        <td th:text="${nizPrezime[index]}">Prezime</td>
+        <td th:text="${nizAdresa[index]}">Adresa</td>
+        <td th:text="${nizBroj[index]}">Broj</td>
+        <td th:text="${nizEmail[index]}">Email</td>
+        <td th:text="${nizLozinka[index]}">Lozinka</td>
+        <td th:text="${nizKanton[index]}">Kanton</td>
+        <td th:text="${nizOsnovica[index]}">Osnovica</td>
+        <td><button class="obrisi">Obriši</button></td>
+        <td><button class="uredi">Uredi</button></td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>

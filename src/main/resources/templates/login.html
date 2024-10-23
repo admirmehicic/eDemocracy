@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <style>
+        .nav{
+            position: absolute;
+            background-color: #1446A0;
+            width: 100%;
+            height: 100px;
+            padding: 0;
+            margin: 0;
+            top: 0;
+            left: 0;
+            right: 0;
+            box-shadow: 0px 5px 5px #2d3436;
+
+        }
+
+        .text{
+            color: white;
+            font-family: Kadwa;
+            margin: 30px;
+            font-size: 20px;
+        }
+
+        .forma{
+            position: absolute;
+            top: 200px;
+            font-family: Kadwa, sans-serif;
+            margin-left: 20%;
+        }
+
+        .sub{
+            background-color: #1446A0;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            border: 0px;
+        }
+
+        .sub:hover{
+            background-color: blue;
+            cursor: pointer;
+        }
+        </style>
+</head>
+<body>
+<div class="nav">
+    <p class="text">Informacioni sistem državne službe</p>
+    <br><br>
+</div>
+<form class="forma" action="prijavaObrada">
+    <p>Unesite email adresu: </p>
+    <input name="email" type="text" placeholder="Email adresa..."><br>
+    <p>Unesite lozinku:</p>
+    <input name="password" type="password" placeholder="Lozinka..."><br> <br>
+    <a href="">Zaboravili ste lozinku?</a><br><br>
+    <button class="sub" type="submit">PRIJAVA</button>
+</form>
+</body>
+
+</html>
