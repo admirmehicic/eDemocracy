@@ -31,7 +31,7 @@ the folder ` screenshots ` for a preview of the application.
 ### Steps 
 1. Clone the respository:
 
-```git clone https://github.com/your-username/eDemocracy.git ```
+```git clone https://github.com/admirmehicic/eDemocracy.git ```
    
 ```cd eDemocracy```
 
