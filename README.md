@@ -4,7 +4,8 @@
 eDemocracy is a web-based application that empowers citizens to actively participate in democratic processes. 
 The platform enables users to engage in political discussions, vote on critical issues, and directly communicate 
 their opinions and needs to government representatives, fostering a transparent and participatory governance model.
-This application will greatly simplify the process of acquiring personal documents and certificates.
+This application will greatly simplify the process of acquiring personal documents and certificates. Please look inside
+the folder ` screenshots ` for a preview of the application.
 
 ## Features
 * Voting System: Citizens can vote on issues and policies.
